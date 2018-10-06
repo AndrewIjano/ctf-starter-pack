@@ -14,7 +14,7 @@ Os CTFs são divididos em dois tipos:
 Todos os times recebem uma Máquina Virtual com algumas falhas de segurança. O objetivo é capturar as flags através das vulnerabilidades dos outros times e protegendo seu próprio time de invasões corrigindo suas falhas de segurança.
 
 ### Jeopardy-sytle
-Todos são apresentados a questões de diversas categorias, níveis de dificuldades e pontuações. As categorias variam de competição para competição, as principais são
+Todos são apresentados a questões de diversas categorias, níveis de dificuldades e pontuações, também chamadas de _challenges_. As categorias variam de competição para competição, as principais são
 
 * **Crypto:** Envolvem problemas relacionados a [criptografia](https://en.wikipedia.org/wiki/Outline_of_cryptography).
 
@@ -38,17 +38,32 @@ Uma ótima plataforma para acompanhar as datas das principais competições é o
 ## Como se preparar para CTFs?
 O melhor jeito de se preparar para essas competições é praticando.
 
-Para auxiliar esse processo, o projeto possui uma lista com desafios muito instrutivos e que abordam diversas àreas da segurança de informação.
+Abaixo está uma lista de alguns sites com ótimo conteúdo para treinar.
 
-O projeto possui também um guia que pretende abordar alguns conceitos básicos para resolver esses desafios de forma didática e rápida.
+Para auxiliar esse processo, este guia pretende abordar alguns conceitos básicos para resolver esses desafios de forma didática e rápida.
 
-E ainda, uma ótima forma de treinar é observar resoluções (ou write-ups) de desafios que você não conseguiu ou quer ver outra resolução dele.  
+E ainda, uma ótima forma de treinar é observar resoluções (ou _write-ups_) de desafios que você não conseguiu ou quer ver outra resolução dele.  
 
+## Onde treinar?
+Alguns dos sites abaixo serão usados como exercício para este guia.
+
+### [WeChall](https://www.wechall.net/)
+Plataforma com desafios de diversas áreas e dificuldades.
+
+### [OverTheWire](http://overthewire.org/wargames/)
+Site com diversos _wargames_ onde é necessário conectar no respectivo servidor por meio do terminal. O desafio __Bandit__ é muito recomendado para aprender comandos de Linux.
+
+### [picoCTF 2018](https://2018game.picoctf.com/)
+A edição 2018 de uma competição muito famosa e voltada para estudantes. Apresenta ótimos desafios introdutórios e de diversas áreas.   
+
+### [Hack The Box](https://www.hackthebox.eu/login)
+Plataforma voltada para invasão de máquinas, simula cenários reais de _pentest_. Possui também alguns desafios de várias áreas, como os outros, e é preciso "_hackear_" o site para conseguir o login.
 ## Referências
-https://ctf-br.org/
+[CTF-BR](https://ctf-br.org/)
 
-http://www.openctf.com/html/firstctf.html
 
-https://trailofbits.github.io/ctf
+[OpenCTF](http://openctf.com/faq/)
 
-https://ctftime.org/
+[Trail of Bits](https://trailofbits.github.io/ctf)
+
+[CTFtime](https://ctftime.org/)
