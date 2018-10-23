@@ -1,3 +1,4 @@
+
 # Sumário
 
 - [Introdução](introduction.md)
@@ -20,3 +21,9 @@
 - [Cifra de Bacon](stegano/bacon-cipher.md)
 - [Interpretar imagem como texto](stegano/image-to-text.md)
 - LSB: Least Significant Bits
+
+## Binários e executáveis
+- O que são arquivos binários? e executáveis?
+- Introdução a engenharia reversa
+- Engenharia reversa pra quem não manja de assembly
+- Vulnerabilidades comuns
