@@ -4,7 +4,7 @@ Como foi explicado na seção de [dados e códigos](../encodings/introduction.md
 
 Um recurso comum em CTFs é colocar um trecho de texto puro em alguma região arbitrária da imagem. Por exemplo, se queremos esconder a palavra `such cake` na imagem `doge.jpg`, podemos usar o comando Linux:
 
-```
+```bash
 echo "such cake" >> doge.jpg
 ```
 
@@ -16,7 +16,7 @@ Para extrair a informação escondida por esse método, várias ferramentas pode
 
 O comando `strings` imprime basicamente todas as sequências de dados _imprimíveis_ de um arquivo. Por exemplo, o comando aplicado a imagem `doge.jpg`
 
-```
+```bash
 strings doge.jpg
 ```
 
@@ -26,7 +26,7 @@ Com isso, o final da saída do comando será algo da forma:
 
 Já o comando `hexdump` permite que a imagem seja analisada de forma mais minuciosa, onde o formato de leitura e impressão pode ser especificado pelo usuário. Por exemplo, um uso do comando com a imagem `doge.jpg`, onde a flag `-C` representa a forma canônica de impressão hex+ASCII:
 
-```
+```bash
 hexdump -C doge.jpg
 ```
 
