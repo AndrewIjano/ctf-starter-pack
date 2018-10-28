@@ -4,6 +4,12 @@
 - [Introdução](introduction.md)
 - [Como identificar flags?](flags.md)
 
+## Códigos
+- [Dados e Códigos](encodings/introduction.md)
+- [Código ASCII](encodings/ASCII.md)
+- [Base 64](encodings/base64.md)
+- Código Morse
+
 ## Criptografia
 - [O que é criptografia?](crypto/introduction.md)
 - [Cifra de César](crypto/caesar-cipher.md)
@@ -11,11 +17,6 @@
 - Cifras de Transposição
 - [Cifras de Substituição](crypto/substitution-cipher.md)
 
-## Códigos
-- [Dados e Códigos](encodings/introduction.md)
-- [Código ASCII](encodings/ASCII.md)
-- [Base 64](encodings/base64.md)
-- Código Morse
 
 ## Esteganografia
 - [Cifra de Bacon](stegano/bacon-cipher.md)
