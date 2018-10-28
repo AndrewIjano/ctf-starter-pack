@@ -13,10 +13,10 @@
 ## Criptografia
 - [O que é criptografia?](crypto/introduction.md)
 - [Cifra de César](crypto/caesar-cipher.md)
+- [Cifras de Substituição](crypto/substitution-cipher.md)
 - [Cifra de Vigenère](crypto/vigenere-cipher.md)
 - Cifras de Transposição
-- [Cifras de Substituição](crypto/substitution-cipher.md)
-
+- One Time Pad
 
 ## Esteganografia
 - [Cifra de Bacon](stegano/bacon-cipher.md)
