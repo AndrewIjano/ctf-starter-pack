@@ -22,6 +22,7 @@
 - [Cifra de Bacon](stegano/bacon-cipher.md)
 - [Interpretar imagem como texto](stegano/image-to-text.md)
 - [LSB: Least Significant Bits](stegano/lsb.md)
+- [Imagem em Áudio](stegano/image-to-audio.md)
 
 ## Binários e executáveis
 - O que são arquivos binários? e executáveis?
