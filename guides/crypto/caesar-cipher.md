@@ -37,7 +37,25 @@ Como num alfabeto usual são usados apenas 26 caracteres, a Cifra de César poss
 Existem ferramentas online muito eficientes para quebrar uma Cifra de César, como o site [dcode](https://www.dcode.fr/caesar-cipher), porém não é muito difícil codificar um _testa tudo_ para isso.
 
 ## Codificando um testa tudo
-(to-do)
+Primeiro, codificaremos uma função `rot()` que aplica a rotação em um caractere:
+
+```python
+def rot(char, shift):
+  return chr((ord(char) - ord('A') + shift)%26 + ord('A'))
+```
+
+Assim, podemos usar essa função para criar um `brute_force()` que recebe um texto cifrado e imprime todas as rotações possíveis.
+
+```python
+def brute_force(cipher_text):
+    cipher_text = cipher_text.upper()
+    for i in range(26):
+        line = ''
+        for c in cipher_text:
+            line += rot(c, i) if c.isalpha() else c
+        print(f'rot{i}:\t{line}')
+```
+
 
 ## Exercícios
 
