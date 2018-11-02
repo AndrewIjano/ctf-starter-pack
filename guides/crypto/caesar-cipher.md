@@ -6,7 +6,7 @@ A Cifra de César é um dos métodos mais simples e comuns de encriptação. Mes
 
 Nessa cifra, cada letra da mensagem é substituida por uma letra do alfabeto deslocado por um número fixo.
 
-Por exemplo, se queremos encriptar a mensagem `hack the planet`, podemos deslocar cada letra do alfabeto **3 vezes para direita** (ou **right 3**). Assim, a substituição teria esse formato:
+Por exemplo, se queremos encriptar a mensagem `hack the planet`, podemos deslocar cada letra do alfabeto __3 vezes para direita__ (ou __right 3__). Assim, a substituição teria esse formato:
 
 |original| A | B | C | D | E | F | G | H | I | J | K | L | M |
 |--------|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -24,7 +24,7 @@ texto cifrado:  kdfn wkh sodqhw
 Dessa forma, o texto gerado se torna incompreensível de forma que só quem sabe o algoritmo usado poderá recuperá-lo.
 
 ## ROT13
-Um dos tipos mais comuns de Cifra de César é o **ROT13**. Nele, o alfabeto é deslocado 13 vezes. Como o alfabeto tradicional possui 26 letras, o ROT13 possui a propriedade de que o mesmo algoritmo usado para encripitar a mensagem é usado para decriptar.
+Um dos tipos mais comuns de Cifra de César é o __ROT13__. Nele, o alfabeto é deslocado 13 vezes. Como o alfabeto tradicional possui 26 letras, o ROT13 possui a propriedade de que o mesmo algoritmo usado para encripitar a mensagem é usado para decriptar.
 
 ## Detectando
 Mensagens encriptadas pela cifra de césar normalmente produzirão um amontoado de caracteres sem significado, como `kdfn wkh sodqhw`, e suas letras terão uma distribuição de frequência similar à língua usada (provavelmente [inglês](https://en.wikipedia.org/wiki/File%3aEnglish_letter_frequency_%28frequency%29.svg)), mas com as letras trocadas. Esse conceito será abordado com mais profundidade em [Cifras de Substituição](substitution-cipher.md).
@@ -32,7 +32,7 @@ Mensagens encriptadas pela cifra de césar normalmente produzirão um amontoado 
 Devido a facilidade de quebrar essa cifra, pode ser conveniente tentar solucioná-la sem nem ao menos uma análise de frequência.
 
 ## Solucionando
-Como num alfabeto usual são usados apenas 26 caracteres, a Cifra de César possui apenas 25 tipos de rotações possíveis (pois a rotação 26 é a própria mensagem). Assim, um **testa tudo**, onde você faz todos os tipos de rotações possíveis, é a opção mais simples.
+Como num alfabeto usual são usados apenas 26 caracteres, a Cifra de César possui apenas 25 tipos de rotações possíveis (pois a rotação 26 é a própria mensagem). Assim, um __testa tudo__, onde você faz todos os tipos de rotações possíveis, é a opção mais simples.
 
 Existem ferramentas online muito eficientes para quebrar uma Cifra de César, como o site [dcode](https://www.dcode.fr/caesar-cipher), porém não é muito difícil codificar um _testa tudo_ para isso.
 

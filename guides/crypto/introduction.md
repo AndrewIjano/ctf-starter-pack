@@ -10,6 +10,6 @@ Para isso, _Alice_ usa um certo algoritmo para tornar a mensagem ilegível de fo
 
 Assim, quando _Eve_ interceptar a mensagem por meio do canal inseguro, se ela não possui o algoritmo criptográfico usado por _Alice_ e _Bob_, ela não será capaz de entender a mensagem.
 
-Ao longo da história, várias técnicas de ocultar mensagens foram desenvolvidas. Antes da criptografia pré-computacional, a **criptografia clássica** era formada por um conjunto de métodos de _substituição_ e _transpoisção_ de caracteres. E com o advento da computação, a **criptografia moderna** se tornou amplamente embasada em teorias matemáticas e práticas de ciência da computação.
+Ao longo da história, várias técnicas de ocultar mensagens foram desenvolvidas. Antes da criptografia pré-computacional, a __criptografia clássica__ era formada por um conjunto de métodos de _substituição_ e _transpoisção_ de caracteres. E com o advento da computação, a __criptografia moderna__ se tornou amplamente embasada em teorias matemáticas e práticas de ciência da computação.
 
 Para esse guia, começaremos com os métodos da criptografia clássica.

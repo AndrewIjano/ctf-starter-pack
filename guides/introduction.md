@@ -16,19 +16,19 @@ Todos os times recebem uma Máquina Virtual com algumas falhas de segurança. O 
 ### Jeopardy-sytle
 Todos são apresentados a questões de diversas categorias, níveis de dificuldades e pontuações, também chamadas de _challenges_. As categorias variam de competição para competição, as principais são
 
-* **Crypto:** Envolvem problemas relacionados a [criptografia](https://en.wikipedia.org/wiki/Outline_of_cryptography).
+* __Crypto:__ Envolvem problemas relacionados a [criptografia](https://en.wikipedia.org/wiki/Outline_of_cryptography).
 
-* **Stegano:** [Esteganografia](https://en.wikipedia.org/wiki/Steganography) é a arte de esconder em plena vista e que envolve basicamente mensagens escondidas em outras mensagens.
+* __Stegano:__ [Esteganografia](https://en.wikipedia.org/wiki/Steganography) é a arte de esconder em plena vista e que envolve basicamente mensagens escondidas em outras mensagens.
 
-* **Forensics:** É uma área ampla que pode incluir análise de formato de arquivos, [memory dumps](https://pt.wikipedia.org/wiki/Core_dump) e  [pacotes](https://en.wikipedia.org/wiki/Packet_analyzer) e até esteganografia.
+* __Forensics:__ É uma área ampla que pode incluir análise de formato de arquivos, [memory dumps](https://pt.wikipedia.org/wiki/Core_dump) e  [pacotes](https://en.wikipedia.org/wiki/Packet_analyzer) e até esteganografia.
 
-* **Reversing:** São desafios de engenharia reversa. Envolvem encontrar vulnerabilidades de algum programa que você não possui o código.
+* __Reversing:__ São desafios de engenharia reversa. Envolvem encontrar vulnerabilidades de algum programa que você não possui o código.
 
-* **Web Hacking:**  Envolvem atacar vulnerabilidades comuns no ramo de tecnologia web.
+* __Web Hacking:__  Envolvem atacar vulnerabilidades comuns no ramo de tecnologia web.
 
-* **Programming:** Testam sua habilidade de criar scripts.
+* __Programming:__ Testam sua habilidade de criar scripts.
 
-* **Miscellaneous:** Problemas variados e normalmente com baixa pontuação.
+* __Miscellaneous:__ Problemas variados e normalmente com baixa pontuação.
 
 ## Quando ocorrem os CTFs?
 Esses eventos ocorrem em vários perídos e lugares, sendo organizados por pessoas diferentes. Alguns podem acontecer remotamente (on-line) ou presencialmente (on-site).

@@ -1,6 +1,6 @@
 # Base64
 
-Agora que você já teve contato com o código ASCII, vamos conhecer o **Base64**, um método para codificar e decodificar dados binários em caracteres ASCII.
+Agora que você já teve contato com o código ASCII, vamos conhecer o __Base64__, um método para codificar e decodificar dados binários em caracteres ASCII.
 
 Esse método é utilizado frequentemente para transferir dados em meios que só suportam formatos ASCII, por exemplo, enviar anexos por e-mail (que usa o [MIME](https://pt.wikipedia.org/wiki/MIME)).
 

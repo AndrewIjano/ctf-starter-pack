@@ -1,14 +1,14 @@
 # Cifra de Bacon
 
-Nessa seção veremos um primeiro exemplo de Esteganografia: a **Cifra de Bacon**.
+Nessa seção veremos um primeiro exemplo de Esteganografia: a __Cifra de Bacon__.
 
 > Ela tem esse nome pois foi criada por Francis Bacon em 1605.
 
 A ideia por trás dessa cifra, diferente de uma cifra criptográfica comum, é esconder a mensagem secreta por meio de um texto legível, apenas mudando a grafia de suas letras.
 
-Essa é uma cifra de substituição, e cada letra é representada por um conjunto de 5 caracteres binários ('a' e 'b' ou '0' e '1'). O **alfabeto de substituição** da Cifra de Bacon possui dois modelos:
+Essa é uma cifra de substituição, e cada letra é representada por um conjunto de 5 caracteres binários ('a' e 'b' ou '0' e '1'). O __alfabeto de substituição__ da Cifra de Bacon possui dois modelos:
 
-- **A cifra de 24 letras:** É a original. Nela, os pares de caracteres (I,J) e (U,V) não possuem distinção.
+- __A cifra de 24 letras:__ É a original. Nela, os pares de caracteres (I,J) e (U,V) não possuem distinção.
 
 ```
 A = aaaaa  I/J = abaaa    R = baaaa
@@ -21,7 +21,7 @@ G = aabba    P = abbba    Y = babba
 H = aabbb    Q = abbbb    Z = babbb
 ```
 
-- **A cifra de 26 letras:** A segunda versão da cifra. Agora todas as letras possuem um código único.
+- __A cifra de 26 letras:__ A segunda versão da cifra. Agora todas as letras possuem um código único.
 
 ```
 A = aaaaa  I = abaaa  Q = baaaa  Y = bbaaa
@@ -44,7 +44,7 @@ texto cifrado:  aabab ababb bbaaa bbaaa abbba babaa aabab abbba abbba ababb baab
 Com isso, podemos usar esse padrão e esconder em uma mensagem comum de tamanho maior ou igual ao texto cifrado, como
 `according to all known laws of aviation, there is no way a bee should be able to fly`.
 
-Assim, removendo os espaços e pontuações para facilitar a associação, podemos esconder a mensagem no texto de várias formas, como associar letras **maiúsculas** ao 'a' e **minúsculas** ao 'b', associar a letras com ou sem **itálico** ou até com duas **fontes diferentes**. Para esse exemplo, usaremos maíusculas e minúsculas.
+Assim, removendo os espaços e pontuações para facilitar a associação, podemos esconder a mensagem no texto de várias formas, como associar letras __maiúsculas__ ao 'a' e __minúsculas__ ao 'b', associar a letras com ou sem __itálico__ ou até com duas __fontes diferentes__. Para esse exemplo, usaremos maíusculas e minúsculas.
 ```
 falsa mensagem: accordingtoallknownlawsofaviationthereisnowayabeeshouldbeabletofly
 texto cifrado:  aababababbbbaaabbaaaabbbababaaaabababbbaabbbaababbbaaba
@@ -65,7 +65,7 @@ Assim, você pode guardar o alfabeto de substituição com um dicionário e usá
 
 Por exemplo, podemos implementar isso com um código em Python:
 
-**Fonte:** [bacon-decoder.py](bacon-decoder.py)
+__Fonte:__ [bacon-decoder.py](bacon-decoder.py)
 ```python
 bacon_to_letter_26 = {
     'aaaaa':'A', 'aaaab':'B', 'aaaba':'C', 'aaabb':'D', 'aabaa':'E',

@@ -21,9 +21,9 @@ A função `ord()` recebe uma string de tamanho 1 e retorna um inteiro que repre
 Já a função `chr()` é o inverso da anterior. Ela recebe um inteiro e devolve o caractere com o respectivo código ASCII. Por exemplo, `chr(97)` devolverá `'a'`.
 ## Exercícios
 
-https://www.wechall.net/challenge/training/encodings/ascii/index.php
+[WeChall: ASCII](https://www.wechall.net/challenge/training/encodings/ascii/index.php)
 
-https://www.wechall.net/challenge/training/encodings/url/index.php
+[WeChall: URL](https://www.wechall.net/challenge/training/encodings/url/index.php)
 
 ## Referências
 [ASCII table](http://www.asciitable.com/)
