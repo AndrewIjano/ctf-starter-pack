@@ -1,6 +1,7 @@
 # Cifra de Vigenère
 
-A Cifra de Vigenère é basicamente uma extensão da fórmula da [Cifra de César](caesar-cipher.md).
+
+Devido à vulnerabilidade das cifras de substituição simples, foi necessário a criação de uma cifra que conseguisse se proteger disso. A __Cifra de Vigenère__ veio com esse propóstio e é basicamente uma extensão da fórmula da [Cifra de César](caesar-cipher.md). Ela gera uma distribuição praticamente uniforme em uma análise de frequência e foi considerada __inquebrável__ por 3 séculos.
 
 > Ela tem esse nome em homenagem a Blaise de Vigenère
 
@@ -28,6 +29,11 @@ Um texto encriptado por essa cifra pode ser detectado através de uma __análise
 A Cifra de Vigenère costuma gerar textos com uma distribuição de frequência das letras próximo ao uniforme. Se um texto cifrado que não é esperado esse tipo de distribuição obter esse resultado, provavelmente é Cifra de Vigenère, ou alguma outra Cifra Polialfabética.
 
 ## Solucinando
+
+Mesmo gerando uma distribuição uniforme em análises de frequência, essa cifra tem uma vulnerabilidade: a palavra-chave é usada várias vezes em um texto grande.
+
+Dessa forma, se a chave tiver tamanho 5, por exemplo, e ajustarmos o texto em linhas de comprimento 5, cada coluna terá a mesma rotação. Assim, podemos chutar tamanhos da palavra-chave e usar a mesma análise de cifra de substituição simples para cada coluna.
+
 Uma ferramenta online muito útill para quebrar a Cifra de Vigenère é o site [dcode](https://www.dcode.fr/vigenere-cipher).
 
 ## Exercícios
