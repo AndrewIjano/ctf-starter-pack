@@ -64,6 +64,20 @@ Dessa forma, utilizando novamente o [dcode](https://www.dcode.fr/vigenere-cipher
 
 **Resposta:** `CLEARTEXT`.
 
+## Krypton5
+
+Para esse nível, também temos uma mensagem codificada pela __Cifra de Vigenère__, porém sem termos o conhecimento do tamanho da chave.
+
+Para descobirir a _key_ podemos usar o texto em `found1` e a ferramenta em [dcode](https://www.dcode.fr/vigenere-cipher). Usando a análise estatística, obtemos uma resposta parcial: `KEYLEBGTH`.
+
+Essa resposta é próxima de um termo legível: `KEYLENGTH`. Testando essa _key_ em `found1` usando o dcode, vemos que ela decifra o texto perfeitamente.
+
+Assim, decriptando o texto `BELOS Z` usando a _key_ `KEYLENGTH` obtemos a flag.
+
+**Resposta:** `RANDOM`.
+
+
+
 
 
 * Nada ainda
