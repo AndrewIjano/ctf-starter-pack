@@ -13,7 +13,7 @@
 ## Criptografia
 - [O que é criptografia?](crypto/introduction.md)
 - [Cifra de César](crypto/caesar-cipher.md)
-- [Cifras de Substituição](crypto/substitution-cipher.md)
+- [Cifras de Substituição Simples](crypto/substitution-cipher.md)
 - [Cifra de Vigenère](crypto/vigenere-cipher.md)
 - Cifras de Transposição
 - [One-Time Pad](crypto/one-time-pad.md)
