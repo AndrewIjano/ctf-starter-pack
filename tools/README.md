@@ -9,11 +9,15 @@ Aqui estão listadas ferramentas importantes para essas competições.
  + [strings](https://linux.die.net/man/1/strings) - Comando para ler as partes de um arquivo que podem ser interpretadas como texto
  + [ltrace](https://linux.die.net/man/1/ltrace) - Comando para verificar as chamadas de biblioteca feitas por um determinado programa
  + [strace](https://linux.die.net/man/1/strace) - Comando para verificar as chamadas de sistema feitas por um determinado programa
+
+### Criptografia
+ + [dcode](https://www.dcode.fr/) - Site com breaker de várias cifras
+ + [guaballa](https://www.guballa.de/substitution-solver) - Solucionador de cifras de substituição simples
  
 ### Esteganografia
  + [zsteg](https://github.com/zed-0xff/zsteg) - Ferramenta para detecção de tipos comuns de esteganografia em imagens
  + [Sonic Visualizer](https://sonicvisualiser.org/) - Visualização de espectro de arquivos de áudio
- + [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec) - Recuperação de arquivos deletados 
+ + [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec) - Recuperação de arquivos deletados
  + [foremost](https://tools.kali.org/forensics/foremost) - Recupera arquivos baseado em seus headers
  + [steghide](http://steghide.sourceforge.net/) - Programa para esconder e recuperar arquivos em imagens e áudios
 
