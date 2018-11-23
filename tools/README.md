@@ -1,6 +1,9 @@
 # Ferramentas para CTFs
 Aqui estão listadas ferramentas importantes para essas competições.
 
+### Encodings
+ + [base64](https://linux.die.net/man/1/base64) - Comando para conversão de arquivos para base64
+
 ### Análise de executáveis/binários
  + [Hexdump](https://linux.die.net/man/1/hexdump) - Visualização e disassembly de arquivos binários
  + [GDB](https://linux.die.net/man/1/gdb) - Debugger e disassembler de executáveis
@@ -13,13 +16,15 @@ Aqui estão listadas ferramentas importantes para essas competições.
 ### Criptografia
  + [dcode](https://www.dcode.fr/) - Site com breaker de várias cifras
  + [guaballa](https://www.guballa.de/substitution-solver) - Solucionador de cifras de substituição simples
- 
+
 ### Esteganografia
  + [zsteg](https://github.com/zed-0xff/zsteg) - Ferramenta para detecção de tipos comuns de esteganografia em imagens
  + [Sonic Visualizer](https://sonicvisualiser.org/) - Visualização de espectro de arquivos de áudio
+ + [Audacity](https://manual.audacityteam.org/index.html) - Manipular arquivos de áudio
  + [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec) - Recuperação de arquivos deletados
  + [foremost](https://tools.kali.org/forensics/foremost) - Recupera arquivos baseado em seus headers
  + [steghide](http://steghide.sourceforge.net/) - Programa para esconder e recuperar arquivos em imagens e áudios
+ + [Stéganô](https://wiki.cedricbonhomme.org/security:steganography?do=) - Programa com métodos adicionais para esconder arquivos em imagens
 
 ### Web
  + [Dirbuster](https://tools.kali.org/web-applications/dirbuster) - Ferramenta de brute force em diretórios de sites
