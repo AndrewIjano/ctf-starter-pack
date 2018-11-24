@@ -75,14 +75,14 @@ Além disso, podem ter sido usadas cifras de substituição em conjunto, dificul
 ## Solucionando
 Um primeiro método que podemos pensar para quebrar cifras de transposição é testar todas as possíveis permutações dos caracteres. Porém, um texto de `20` caracteres geraria `20!` possíveis permutações. Se computássemos 100 milhões de valores por segundo, demoraríamos mais de 300 anos para computar todos. Logo, testar todas as possibilidades é inviável.
 
+Como existem vários métodos diferentes de cifras de transposição, cada um necessita de uma abordagem diferente.
 
+Nesses dois posts no StackExchange: [[1]](https://crypto.stackexchange.com/questions/40119/how-to-solve-columnar-transposition-cipher-without-a-key) e [[2]](https://crypto.stackexchange.com/questions/1550/obtaining-the-key-length-of-a-columnar-transposition-given-a-known-plaintext-wo/1578#1578), Ilmari Karonen mostra métodos para resolver manualmente cifras de transposição colunar. 
 
 ## Exercícios
 
 [WeChall: Transposition I ](https://www.wechall.net/challenge/training/crypto/transposition1/index.php)
 
 ## Referências
-
-[StackExchange](https://crypto.stackexchange.com/questions/1550/obtaining-the-key-length-of-a-columnar-transposition-given-a-known-plaintext-wo/1578#1578)
 
 [Applied Cryptography, second edition](https://doc.lagout.org/security/Crypto/%28eBook%29%20Bruce%20Schneier%20-%20Applied%20Cryptography%2C%20Second%20Edition%20-%20John%20Wiley%20%26%20Sons%20%5BISBN0471128457%5D.pdf)
