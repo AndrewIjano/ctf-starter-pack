@@ -64,7 +64,7 @@ O ponto fraco de cifras de substituição simples é que elas são muito suscet�
 
 Assim, se você tiver um texto de tamanho razoável, por volta de 50 caracteres, é possível analisar a frequência com que as letras aparecem e deduzir qual foi o alfabeto de substituição usado.
 
-O site [guaballa](https://www.guballa.de/substitution-solver) é um excelente decodificador de cifras de substituição simples.
+O site [guballa](https://www.guballa.de/substitution-solver) é um excelente decodificador de cifras de substituição simples.
 
 ## Exercícios
 [OverTheWire: Krypton 3](http://overthewire.org/wargames/krypton/krypton3.html)
