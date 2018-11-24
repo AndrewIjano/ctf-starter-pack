@@ -15,7 +15,7 @@
 - [Cifra de César](crypto/caesar-cipher.md)
 - [Cifras de Substituição Simples](crypto/substitution-cipher.md)
 - [Cifra de Vigenère](crypto/vigenere-cipher.md)
-- [Cifras de Transposição](crypto/tranposition-cipher.md)
+- [Cifras de Transposição](crypto/transposition-cipher.md)
 - [One-Time Pad](crypto/one-time-pad.md)
 
 ## Esteganografia
