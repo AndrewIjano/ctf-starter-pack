@@ -18,6 +18,7 @@
 - [One-Time Pad](crypto/one-time-pad.md)
 
 ## Esteganografia
+- [O que é esteganografia?](stegano/introduction.md)
 - [Cifra de Bacon](stegano/bacon-cipher.md)
 - [Interpretar imagem como texto](stegano/image-to-text.md)
 - [LSB: Least Significant Bits](stegano/lsb.md)
