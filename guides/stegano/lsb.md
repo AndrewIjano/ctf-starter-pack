@@ -100,6 +100,14 @@ O resultado será algo como
 
 ![](zsteg-example.png)
 
+### Steganabara
+
+Steganabara é uma ferramenta um pouco antiga mas que soluciona um tipo bem peculiar de esteganografia: os bits da imagem são alterados para gravar a mensagem de forma visual. Assim, a ferramenta usa técnicas como _Bit Mask Filter_ e _Color Map Filter_ para recuperar a mensagem escondida.
+
+[Link para o repositório](https://github.com/quangntenemy/Steganabara)
+
+[Breve explicação de seu uso](http://wechall.blogspot.com/2007/11/steganabara-explained.html)
+
 ## Informações adicionais
 
 Muitas vezes, a técnica de LSB pode ser usada junto a uma __criptografia__ para proteger ainda mais a mensagem e dificultar sua detecção.
@@ -107,7 +115,7 @@ Muitas vezes, a técnica de LSB pode ser usada junto a uma __criptografia__ para
 Na vida real, a técnica de LSB pode ser usada como __marca d'água digital__ para detectar cópias de mídias não autorizadas. O programa [OpenStego](https://www.openstego.com/) é um ótimo exemplo de software com essa finalidade.
 
 ## Exercícios
-(to-do)
+[WeChall: LSB](https://www.wechall.net/challenge/training/stegano/LSB/index.php)
 
 ## Referências
 
