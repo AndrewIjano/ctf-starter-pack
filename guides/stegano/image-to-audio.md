@@ -32,6 +32,10 @@ Porém, o áudio esteganográfico ainda pode ser percebido devido a seu ruído. 
 Assim, selecinando todas as _tracks_ e exportando a música gerada para WAV, `steg-macintosh-plus.wav`, teremos uma música audível mas com uma imagem escondida em seu espectrograma.
 
 ![](sonic-visualizer-example2.png)
+
+## Exercícios
+[HackTheBox: Milkshake](../../challenges/HackTheBox/Milkshake/Milkshake.md)
+
 ## Referências
 
 [PNSN: Espectrogramas](https://pnsn.org/spectrograms/what-is-a-spectrogram)
