@@ -9,4 +9,4 @@ O projeto possui as seguintes documentos:
 - [Resoluções](https://github.com/AndrewIjano/ctf-starter-pack/tree/master/write-ups) de alguns problemas desses eventos.
 - [Ferramentas](tools/README.md) para essas competições.
 
-O guia está disponível da [wiki do IMEsec](https://wiki.imesec.ime.usp.br/).
+O guia está disponível na [wiki do IMEsec](https://wiki.imesec.ime.usp.br/).
