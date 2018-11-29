@@ -25,6 +25,7 @@ Aqui estão listadas ferramentas importantes para essas competições.
  + [foremost](https://tools.kali.org/forensics/foremost) - Recupera arquivos baseado em seus headers
  + [steghide](http://steghide.sourceforge.net/) - Programa para esconder e recuperar arquivos em imagens e áudios
  + [Stéganô](https://wiki.cedricbonhomme.org/security:steganography?do=) - Programa com métodos adicionais para esconder arquivos em imagens
+ + [Steganabara](https://github.com/quangntenemy/Steganabara) - Programa para encontrar mensagens escondidas em imagens pro meio de _Bit Mask_.
 
 ### Web
  + [Dirbuster](https://tools.kali.org/web-applications/dirbuster) - Ferramenta de brute force em diretórios de sites
