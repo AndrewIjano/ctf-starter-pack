@@ -18,7 +18,23 @@ Assim, obtemos a senha de Krypton1.
 
 É preciso decodificar a mensagem `YRIRY GJB CNFFJBEQ EBGGRA`, encriptada por __rotação simples__.
 
-Rotação simples pode significar alguma versão da Cifra de César, provavelmente ROT13. Para isso, podemos usar sites como [dcode](https://www.dcode.fr/caesar-cipher) ou criar um programa em python que automatize isso.
+Rotação simples pode significar alguma versão da Cifra de César, provavelmente ROT13. Para isso, podemos usar sites como [dcode](https://www.dcode.fr/caesar-cipher) ou criar um programa em python que automatize isso:
+
+```python
+def rot(char, shift):
+    return chr((ord(char) - ord('A') + shift)%26 + ord('A'))
+
+def decode(ciphertext, shift):
+    msg = ''
+    for c in ciphertext:
+        msg += rot(c, shift) if c.isalpha() else c
+    return msg
+
+ciphertext = 'YRIRY GJB CNFFJBEQ EBGGRA'
+shift = 13
+flag = decode(ciphertext, shift)
+print(flag)
+```
 
 A resposta está na cifra decodificada por ROT13: `LEVEL TWO PASSWORD ROTTEN`.
 
@@ -34,7 +50,17 @@ Podemos criar uma pasta em `/tmp/` e linkar a keyfile nele para usarmos o execut
 
 Com isso, o arquivo encriptado terá a letra `m`, indicando que foi usado ROT12 para encriptação e deverá ser usado ROT14 para decriptação, obtendo a _flag_.
 
-Outro modo, muito mais rápido, é usar o mesmo método do nível anterior, fazendo um _brute-force_ das 26 rotações possíveis de uma Cifra de César. A que tiver a frase mais legível é a _flag_.
+Outro modo, muito mais rápido, é usar o mesmo método do nível anterior, fazendo um _brute-force_ das 26 rotações possíveis de uma Cifra de César.
+```python
+def brute_force(ciphertext):
+    for shift in range(26):
+        print(decode(ciphertext, shift))
+
+brute_force('OMQEMDUEQMEK')
+```
+A que tiver a frase mais legível é a _flag_.
+
+
 
 **Resposta:** `CAESARISEASY`.
 
