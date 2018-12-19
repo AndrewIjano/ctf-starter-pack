@@ -18,7 +18,7 @@ Assim, obtemos a senha de Krypton1.
 
 É preciso decodificar a mensagem `YRIRY GJB CNFFJBEQ EBGGRA`, encriptada por __rotação simples__.
 
-Rotação simples pode significar alguma versão da Cifra de César, provavelmente ROT13. Para isso, podemos usar sites como [dcode](https://www.dcode.fr/caesar-cipher) ou criar um programa em python que automatize isso: [k1.py](k1.py).
+Rotação simples pode significar alguma versão da Cifra de César, provavelmente ROT13. Para isso, podemos usar sites como [dcode](https://www.dcode.fr/caesar-cipher) ou criar um programa em python que automatize isso.
 
 A resposta está na cifra decodificada por ROT13: `LEVEL TWO PASSWORD ROTTEN`.
 
@@ -76,8 +76,61 @@ Assim, decriptando o texto `BELOS Z` usando a _key_ `KEYLENGTH` obtemos a flag.
 
 **Resposta:** `RANDOM`.
 
+## Krypton6
+
+Nesse último nível, a mensagem em `krypton7` está codificada pelo método de One-Time Pad, usando o programa `encrypt6`.
+
+Como temos o programa, podemos usar o método do `Known-plaintext attack` para descobrir seu funcionamento.
+
+Primeiro, criamos uma pasta em `/tmp/` para os arquivos desse nível
+
+```bash
+mkdir /tmp/files/
+```
+
+Depois, vamos criar um arquivo apenas com "A"s, para ser encriptado.
+
+```bash
+echo "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" > /tmp/files/a
+```
+
+Assim, encriptando ele por
+
+```bash
+./encrypt6 /tmp/files/a /tmp/files/out
+```
+
+obtemos a sequência `EICTDGYIYZKTHNSIRFXYCPFUEOCKRNEICTDGYIYZKTHNS`. Ao realizar o mesmo comando várias vezes, a resposta continua a mesma. Logo, a _key_ não é aleatória.
+
+Além disso, vemos que ela se repete produzindo a sequência `EICTDGYIYZKTHNSIRFXYCPFUEOCKRN` várias vezes.
+
+Testando com um arquivo com apenas "B"s,
+
+```bash
+echo "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB" > /tmp/files/b
+./encrypt6 /tmp/files/b /tmp/files/out2
+```
+
+Obtemos a sequência `FJDUEHZJZALUIOTJSGYZDQGVFPDLSOFJDUEHZJZALUIOT`, que é exatamente a anterior com um shift a mais no alfabeto em cada caractere.
+
+Assim, temos que o One-Time Pad não é aleatório, usa a mesma seed, cuja _key_ repete ao longo da mensagem, e se comporta com shifts no alfabeto, como na cifra de Vigenère.
+
+Por fim, um pequeno script em Python consegue recuperar a flag:
+
+```python
+input = 'PNUKLYLWRQKGKBE'
+key = 'EICTDGYIYZKTHNS'
+base = ord('A')
+flag = ''
+for c_in, shift in zip(input, key):
+    flag += chr( (ord(c_in) - ord(shift) - 2*base)%26 + base)
+
+print(flag)
+```
+
+**Resposta:** `LFSRISNOTRANDOM`.
 
 
-
+## Outros Write-ups e arquivos
 
 * Nada ainda
