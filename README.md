@@ -1,7 +1,7 @@
 
 <img src="logo.png" width="480">
 
-Esse projeto pretende oferecer as ferramentas e conteúdos básicos para um entusiasta de segurança da informação participar de uma das principais competições da àrea: as Capture The Flags ou CTFs.
+Esse projeto pretende oferecer as ferramentas e conteúdos básicos para um entusiasta de segurança da informação participar de uma das principais competições da área: as Capture The Flags ou CTFs.
 
 O projeto possui as seguintes documentos:
 
